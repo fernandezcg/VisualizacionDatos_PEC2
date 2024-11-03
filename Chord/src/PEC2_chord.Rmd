@@ -1,0 +1,79 @@
+---
+title: "PEC2 - Visualización de Datos: Chord Diagram"
+author: "César Fernández García"
+date: "2024-11-03"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = TRUE)
+# cargo paquetes
+library("knitr")
+library(dplyr)
+library(tidyr)
+library(tidyverse)
+
+library(readr)
+
+library(circlize)
+
+# Instalar y cargar la librería chorddiag
+if (!requireNamespace("devtools", quietly = TRUE)) {
+    install.packages("devtools")
+}
+devtools::install_github("mattflor/chorddiag")
+library(chorddiag)
+
+```
+
+# Cargar datos y Preproceso
+
+```{r cargar data}
+# Leer el archivo CSV desde la URL
+url <- "https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/13_AdjacencyDirectedWeighted.csv"
+data <- read.csv(url, sep = " ")
+
+matrix_data <- as.matrix(data)
+
+# Reemplazar los puntos en los nombres de filas y columnas por espacios
+rownames(data) <- gsub("\\.", " ", rownames(data))
+colnames(data) <- gsub("\\.", " ", colnames(data))
+
+# Obtener los nombres de las filas y las columnas
+row_names <- rownames(data)
+col_names <- colnames(data)
+
+# Inicializar dataframe
+result <- data.frame(source = character(), target = character(), value = numeric(), stringsAsFactors = FALSE)
+
+for (i in 1:nrow(matrix_data)) {
+  for (j in 1:ncol(matrix_data)) {
+    if (matrix_data[i, j] > 0) {  # Solo incluir relaciones con valor mayor a 0
+      result <- rbind(result, data.frame(source = row_names[i], target = col_names[j], value = matrix_data[i, j]))
+    }
+  }
+}
+
+```
+
+# Chord Diagram
+
+```{r chordDiagram}
+
+chordDiagram(result, transparency = 0.5)
+
+```
+
+# Guardar datos para Flourish
+
+```{r guardar data}
+
+# Guardar fichero para cargar en Flourish
+write.csv(result, "./chord_data.csv", row.names = FALSE)
+
+```
