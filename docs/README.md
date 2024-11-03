@@ -1,21 +1,37 @@
-#VisualizacionDatos PEC2
+VisualizacionDatos PEC2
 ================
 
 
+## Boxplot diagram
 
-Construct a continuous area cartogram by a rubber sheet distortion
-algorithm (Dougenik et al. 1985), non-contiguous Area Cartograms (Olson
-1976), and non-overlapping Circles Cartogram (Dorling el al. 1996) in R.
+__Tableau__: 
+https://public.tableau.com/app/profile/c.sar.fern.ndez.garc.a/viz/PEC2_Boxplot/Dashboard1?publish=yes
 
-## Installation
+__Flourish__: 
+https://public.flourish.studio/story/2692175/
 
-You can install the **cartogram** package from CRAN as follows:
+__Datos__: 
+https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset?resource=download
 
-``` r
-install.packages("cartogram")
-```
+## Chord diagram
 
-## References
+__Flourish__:
+https://public.flourish.studio/visualisation/20106448/
 
-- Dorling, D. (1996). Area Cartograms: Their Use and Creation. In
-  Concepts and Techniques in Modern Geography (CATMOG), 59.
+__R__:
+https://fernandezcg.github.io/VisualizacionDatos_PEC2/Chord/PEC2_chord.html
+
+__Datos__:
+https://python-graph-gallery.com/chord-diagram-python-chord/
+https://onlinelibrary.wiley.com/doi/abs/10.1111/imre.12327
+
+## Cartogram diagram
+
+__Datawrapper__:
+https://datawrapper.dwcdn.net/5Og4T/5/
+
+__R__:
+https://fernandezcg.github.io/VisualizacionDatos_PEC2/Cartogram/PEC2_cartograma.html
+
+__Datos__:
+El dataset World está disponible en el paquete tmap
