@@ -1,0 +1,89 @@
+---
+title: "PEC2 - Visualización de Datos"
+author: "César Fernández García"
+date: "2024-11-03"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = TRUE)
+# cargo paquetes
+library("knitr")
+library(dplyr)
+library(tidyverse)
+library(openxlsx)
+
+library(cartogram)
+library(sf)
+library(tmap)
+```
+
+# Cargar datos
+
+```{r cargar data}
+data("World")
+```
+
+# Continuous Area Cartogram
+
+```{r cartograma }
+
+# project the map
+world_map <- st_transform(World, 3395)
+
+# construct cartogram
+world_continuous_area <- cartogram_cont(world_map, "life_exp", itermax = 5)
+
+
+```
+
+# Visualización
+
+```{r visualizar }
+
+ggplot(world_continuous_area) +
+  geom_sf(aes(fill = life_exp ), linewidth = 0, alpha = 0.9) +
+  theme_void() +
+  scale_fill_viridis_c(
+    name = "Esperanza (Años)",
+    breaks = c(50, 60, 70, 80),
+    direction = -1,
+    guide = guide_legend(
+      keyheight = unit(3, units = "mm"),
+      keywidth = unit(12, units = "mm"),
+      label.position = "bottom",
+      title.position = "top", nrow = 1
+    )
+  ) +
+  labs(title = "Esperanza de vida") +
+  theme(
+    text = element_text(color = "#22211d"),
+    plot.background = element_rect(fill = "#f5f5f4", color = NA),
+    panel.background = element_rect(fill = "#f5f5f4", color = NA),
+    legend.background = element_rect(fill = "#f5f5f4", color = NA),
+    plot.title = element_text(
+      size = 22, hjust = 0.5,
+      color = "#4e4d47",
+      margin = margin(
+        b = -0.1, t = 0.4, l = 2,
+        unit = "cm"
+      )
+    ),
+    legend.position = "bottom"
+  )
+```
+
+# Exportar para Visualizar en DataWrapper
+
+```{r exportar data}
+
+world_data <- st_drop_geometry(World)
+# Guardar en Excel
+write.xlsx(world_data, "../data/World_data.xlsx", rowNames = FALSE)
+```
+
