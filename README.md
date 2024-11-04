@@ -1,4 +1,4 @@
-Visualizacion Datos PEC2
+Visualización Datos PEC2
 ================
 
 
@@ -30,6 +30,9 @@ __Flourish__:
 https://public.flourish.studio/story/2692175/
 
 __Datos__: 
+
+Conjunto de datos de ejercicios de miembros del gimnasio
+
 https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset?resource=download
 
 ## Chord diagram
