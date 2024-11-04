@@ -37,7 +37,7 @@ data("World")
 world_map <- st_transform(World, 3395)
 
 # construct cartogram
-world_continuous_area <- cartogram_cont(world_map, "life_exp", itermax = 5)
+world_continuous_area <- cartogram_cont(world_map, "pop_est", itermax = 5)
 
 
 ```
