@@ -75,7 +75,7 @@ chordDiagram(result, transparency = 0.5)
 
 # Guardar fichero para cargar en Flourish
 write.csv(result, "../data/chord_data.csv", row.names = FALSE)
-write.xlsx(world_data, "../data/World_data.xlsx", rowNames = FALSE)
+write.xlsx(result, "../data/World_data.xlsx", rowNames = FALSE)
 
 
 ```
