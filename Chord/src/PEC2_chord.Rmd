@@ -17,6 +17,7 @@ library("knitr")
 library(dplyr)
 library(tidyr)
 library(tidyverse)
+library(openxlsx)
 
 library(readr)
 
@@ -74,6 +75,8 @@ chordDiagram(result, transparency = 0.5)
 ```{r guardar data}
 
 # Guardar fichero para cargar en Flourish
-write.csv(result, "./chord_data.csv", row.names = FALSE)
+write.csv(result, "../data/chord_data.csv", row.names = FALSE)
+write.xlsx(world_data, "../data/World_data.xlsx", rowNames = FALSE)
+
 
 ```
