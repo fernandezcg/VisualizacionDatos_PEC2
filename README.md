@@ -32,7 +32,9 @@ https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset?resou
 
 ### Visualización
 
-Explora cómo distintas rutinas contribuyen a una vida activa y saludable
+Explora cómo distintas rutinas contribuyen a una vida activa y saludable.
+
+Ayuda a los usuarios a identificar los ejercicios más efectivos para una vida activa y saludable
 
 __Tableau__: 
 https://public.tableau.com/app/profile/c.sar.fern.ndez.garc.a/viz/PEC2_Boxplot/Dashboard1?publish=yes
@@ -77,6 +79,8 @@ https://onlinelibrary.wiley.com/doi/abs/10.1111/imre.12327
 
 ### Visualización
 
+Este diseño permite identificar qué regiones tienen mayores conexiones migratorias y hacia dónde se dirigen los movimientos de población
+
 __Flourish__:
 https://public.flourish.studio/visualisation/20106448/
 
@@ -115,6 +119,10 @@ Comparativa de la esperanza de vida entre países
 El dataset World está disponible en el paquete tmap
 
 ### Visualización
+
+Presentar la población mundial y la esperanza de vida de forma simultánea, destacando la relevancia de estos dos indicadores en distintas regiones
+
+Revela no solo la distribución de la población mundial, sino también las diferencias en esperanza de vida, permitiendo al usuario observar cómo la densidad poblacional puede relacionarse con la calidad de vida a través de la longevidad
 
 __R__:
 https://fernandezcg.github.io/VisualizacionDatos_PEC2/Cartogram/PEC2_cartograma.html
