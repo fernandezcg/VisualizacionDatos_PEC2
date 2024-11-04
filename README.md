@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset?resou
 
 ### Visualización
 
-<img width="945" alt="Captura de pantalla 2024-11-04 a las 16 23 44" src="https://github.com/user-attachments/assets/dee08ffd-5eda-4676-a9d7-17db99bb8f82">
+<img width="946" alt="Captura de pantalla 2024-11-04 a las 16 29 47" src="https://github.com/user-attachments/assets/e25dbb30-dc52-44ca-be2b-d8aef98a9aaf">
 
 __Tableau__: 
 https://public.tableau.com/app/profile/c.sar.fern.ndez.garc.a/viz/PEC2_Boxplot/Dashboard1?publish=yes
