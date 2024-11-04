@@ -99,7 +99,9 @@ __Funcionamiento__
 
 En un cartograma, los tamaños de los países o regiones se ajustan para reflejar la magnitud de una variable, permitiendo así visualizar de manera efectiva cómo se distribuye ese dato en el espacio geográfico.
 
-Tiene como objetivo corregir el sesgo que se puede observar en un mapa coroplético: cuando una variable se agrega por región, una región con muy pocos puntos de datos parecerá tan importante como una región con muchos puntos de datos. Por ejemplo, imagina que muestras el salario medio por región en tu mapa de coropletas. Una región con 3 habitantes y una superficie enorme tendrá más importancia en tu mapa que una pequeña con 3.000 habitantes, lo que induce un fuerte sesgo.
+Tiene como objetivo corregir el sesgo que se puede observar en un mapa coroplético: cuando una variable se agrega por región, una región con muy pocos puntos de datos parecerá tan importante como una región con muchos puntos de datos.
+
+Por ejemplo, el salario medio por región en tu mapa de coropletas. Una región con 3 habitantes y una superficie enorme tendrá más importancia en tu mapa que una pequeña con 3.000 habitantes, lo que induce un fuerte sesgo.
 
 __Tipos de Datos__
 Los cartogramas son adecuados para **datos cuantitativos, especialmente aquellos que tienen una dimensión geográfica**
