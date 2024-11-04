@@ -17,7 +17,6 @@ library("knitr")
 library(dplyr)
 library(tidyr)
 library(tidyverse)
-library(openxlsx)
 
 library(readr)
 
