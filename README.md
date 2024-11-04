@@ -33,6 +33,9 @@ __Datos__:
 
 Conjunto de datos de ejercicios de miembros del gimnasio
 
+<img width="1141" alt="Captura de pantalla 2024-11-04 a las 16 12 56" src="https://github.com/user-attachments/assets/e2fed22c-3adf-48e8-bea4-79bd4946ea05">
+
+
 https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset?resource=download
 
 ## Chord diagram
@@ -63,6 +66,11 @@ __R__:
 https://fernandezcg.github.io/VisualizacionDatos_PEC2/Chord/PEC2_chord.html
 
 __Datos__:
+
+Estimación de flujos migratorios entre macroáreas
+
+<img width="198" alt="Captura de pantalla 2024-11-04 a las 16 14 52" src="https://github.com/user-attachments/assets/f19e9f58-1883-4d44-a0e1-b4b5acf38dd0">
+
 https://python-graph-gallery.com/chord-diagram-python-chord/
 https://onlinelibrary.wiley.com/doi/abs/10.1111/imre.12327
 
@@ -92,6 +100,11 @@ __R__:
 https://fernandezcg.github.io/VisualizacionDatos_PEC2/Cartogram/PEC2_cartograma.html
 
 __Datos__:
+Desigualdad Global en la Esperanza de Vida
+Comparativa de la esperanza de vida entre países
+
+<img width="975" alt="Captura de pantalla 2024-11-04 a las 16 16 45" src="https://github.com/user-attachments/assets/a91b0583-cb99-4c95-a1c2-d0cb6fe7dd7b">
+
 El dataset World está disponible en el paquete tmap
 
 ## Recapitulación
