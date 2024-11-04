@@ -32,14 +32,18 @@ https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset?resou
 
 ### Visualización
 
-<img width="946" alt="Captura de pantalla 2024-11-04 a las 16 29 47" src="https://github.com/user-attachments/assets/e25dbb30-dc52-44ca-be2b-d8aef98a9aaf">
+Explora cómo distintas rutinas contribuyen a una vida activa y saludable
 
 __Tableau__: 
 https://public.tableau.com/app/profile/c.sar.fern.ndez.garc.a/viz/PEC2_Boxplot/Dashboard1?publish=yes
 
+<img width="946" alt="Captura de pantalla 2024-11-04 a las 16 29 47" src="https://github.com/user-attachments/assets/e25dbb30-dc52-44ca-be2b-d8aef98a9aaf">
+
 __Flourish__: 
+
 https://public.flourish.studio/story/2692175/
 
+<img width="1024" alt="Captura de pantalla 2024-11-04 a las 16 38 11" src="https://github.com/user-attachments/assets/2f8587bf-e77b-4348-9df5-8321e3dcdadf">
 
 ## Chord diagram
 
@@ -73,14 +77,15 @@ https://onlinelibrary.wiley.com/doi/abs/10.1111/imre.12327
 
 ### Visualización
 
-<img width="803" alt="Captura de pantalla 2024-11-04 a las 16 24 56" src="https://github.com/user-attachments/assets/a53dd285-7867-48ad-888b-81d9f130050f">
-
 __Flourish__:
 https://public.flourish.studio/visualisation/20106448/
+
+<img width="803" alt="Captura de pantalla 2024-11-04 a las 16 24 56" src="https://github.com/user-attachments/assets/a53dd285-7867-48ad-888b-81d9f130050f">
 
 __R__:
 https://fernandezcg.github.io/VisualizacionDatos_PEC2/Chord/PEC2_chord.html
 
+<img width="486" alt="Captura de pantalla 2024-11-04 a las 16 36 54" src="https://github.com/user-attachments/assets/04dc93aa-628a-495c-b9d6-e0817c3c01e1">
 
 ## Cartogram diagram
 
@@ -111,13 +116,16 @@ El dataset World está disponible en el paquete tmap
 
 ### Visualización
 
-<img width="616" alt="Captura de pantalla 2024-11-04 a las 16 25 53" src="https://github.com/user-attachments/assets/e5a8a40c-729f-4d0f-8f1c-184fcbbccf49">
-
 __R__:
 https://fernandezcg.github.io/VisualizacionDatos_PEC2/Cartogram/PEC2_cartograma.html
 
+<img width="356" alt="Captura de pantalla 2024-11-04 a las 16 59 40" src="https://github.com/user-attachments/assets/521f637a-bae0-4fc9-872e-ad448ce3bdd5">
+
 __Datawrapper__:
 https://datawrapper.dwcdn.net/5Og4T/5/
+
+<img width="1210" alt="Captura de pantalla 2024-11-04 a las 16 35 33" src="https://github.com/user-attachments/assets/c0667e91-9179-4afe-97a0-b7a8143b560c">
+
 
 
 ## Recapitulación
